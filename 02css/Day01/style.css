@@ -1,0 +1,32 @@
+/* element selector by name */
+/* class selector by .class name */
+/* id selector by # id name */
+/* universal select by * */
+/*  groupingselect by group using h1,h2,h3 */
+/* select by attribute means draggable */
+body{
+    background-color: rgb(142, 30, 104);
+}
+h1{
+    color: aqua;
+    background-color: black;
+}
+ul{
+    color: bisque;
+    background-color: blue;
+}
+p{
+    color: aqua;
+    background-color: black;
+}
+.first{
+    color: bisque;
+    background-color: blue;
+}
+#box{
+    color: blue;
+    background-color: brown;
+}
+h2[draggable="true"]{
+    color: blueviolet;
+}

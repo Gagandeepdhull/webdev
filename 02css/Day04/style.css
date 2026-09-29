@@ -1,0 +1,24 @@
+h2{
+    background-color: aqua;
+    border: 10;
+    border-width: 2px;
+    border-style: solid;
+    border-color:rgb(0, 0, 0);
+    /* phle top right bottom left */
+    padding: 10px 20px 20px 30px;
+    /*  border width color style */
+    border:20px brown solid;
+}
+h4{
+    background-color: blue;
+     /* border-left-width:10px ;
+     border-color: plum;
+     border-left-style: dashed; */ 
+     
+     
+     /* top right bottom left*/
+     /* border-width: 10px 20px;  */
+}
+ol{
+    background-color: blue;
+}

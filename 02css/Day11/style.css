@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    background-color: aqua;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+}
+/*  flex item
+    order it define the order of element
+    default order is zero  */
+/* flex grow 
+    grow define it uses the extra space 
+    default is zero */
+/*  flex shrinkshrink it   */
+/* flex basis  width ko inc */
+/* align self ko top bottom  */
+/* flex : grow shrink basis  */
+.box1{
+    background-color: red;
+    /* order: -1; */
+}
+.box2{
+    background-color: blue;
+    /* flex-grow: 1; */
+}
+.box3{
+    background-color: green;
+    /* flex-grow: 3; */
+}
+.box4{
+    background-color:yellow;
+    /* flex-shrink: 3; */
+}
+@media (max-width:400px){
+    .conatiner{
+        background-color: black;
+    }
+}

@@ -1,0 +1,9 @@
+.box{
+    text-align: center;
+    /* margin: auto;
+    margin-top:20vh; */
+    background-color: red;
+    height: 60vh;
+    width: 60vh;
+    border-radius: 50%;
+}

@@ -1,0 +1,132 @@
+*{
+    margin: 0%;
+}
+body{
+    background-color: rgb(253, 243, 243);
+}
+.head{
+    background-color: white;
+}
+.first {
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+.third{
+    height: 800px;
+    background-color: grey;
+}
+.second{
+    padding: 20px;
+    position:sticky;
+    top: 0px;
+    background-color: white;
+}
+.dining{
+    margin-left: 200px;
+}
+.img3{
+    height: 60px;
+    width: 60px;
+}
+.dine{
+    position: relative;
+    bottom: 22px;
+    left: 5px;
+    font-size: 20px;
+    color: gray;
+}
+.delivery{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.brand{
+    color: red;
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.searching{
+    height: 30px;
+    width: 300px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 13px;
+}
+button{
+    height: 50px;
+    width: 80px;
+    position: relative;
+    bottom: 10px;
+    font-size: 15px;
+    margin-right: 50px;
+    background-color: white;
+    border: none;
+    color: grey;
+}
+.log{
+
+
+}
+.card:hover{
+    background-color: white;
+    border-color: white;
+}
+.card{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 10px solid rgb(253, 243, 243);
+    border-radius: 10px;
+}
+.box{
+    display: inline-block;
+}
+.img{
+    position: relative;
+    height: 250px;
+    width: auto;
+    border-radius: 20px;
+}
+.restaurant , .food , .location{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom:5px;
+}
+.restaurant_name{
+    font-weight: bold;
+    font-size: 20px;
+}
+.rating{
+    background-color: green;
+    color: white;
+    height: 20px;
+    right: 5px;
+    padding: 3px;
+    position: absolute;
+    border-radius: 5%;
+}
+.price , .distance{
+    position:absolute ;
+    right: 5px ;
+
+}
+.food, .place{
+    font-size: 15px;
+    color: rgb(88, 82, 82);
+}
+.distance{
+    font-size: 10px;
+    font-weight: bold;
+}
+.off{
+    font-size: 30px;
+    background-color:rgba(245, 16, 16,0.6);
+    color: white;
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+}
+.image{
+    position: relative;
+}

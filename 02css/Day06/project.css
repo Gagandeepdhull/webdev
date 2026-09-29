@@ -1,0 +1,14 @@
+header{
+    background-color: chartreuse;
+    position: fixed;
+    /* width: 100%; */
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    /* top left right k sath margin works kre h */
+    /* width k sath padding kam kre h */
+
+}
+main{
+   padding-top: 60px;
+}

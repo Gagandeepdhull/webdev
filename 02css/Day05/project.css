@@ -1,0 +1,25 @@
+*{
+    margin: 0%;
+   
+}
+
+.lefttop, .leftbelow{
+    display: inline-block;
+    height:35vh;
+    width: 20vw;
+    background-color: red;
+}
+.righttop, .rightbelow{
+    display: inline-block;
+    height: 35vh;
+    width: 55vw;
+    background-color: red;
+
+}
+.righttop,.rightbelow{
+    margin-left: 14vw;
+}
+.leftbelow,.rightbelow{
+    margin-top: 20vh;
+}
+

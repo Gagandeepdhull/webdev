@@ -1,0 +1,13 @@
+*{
+    margin: 0%;
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    overflow: scroll;
+}
+/* by default overflow visible
+if we add hidden it hide
+if we add scroll by scrolling get all content
+if we add auto automatic scroll */

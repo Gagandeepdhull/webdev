@@ -1,0 +1,49 @@
+ h1{
+    background-color: blue;
+    text-align: justify;
+}
+p{
+    background-color: orange;
+}
+/*  text align left right center
+text align justify ending same krta yani itna bhi content h saria ek hi line jesa yani margin good looing blocj */
+/* .container{
+    text-align: center;
+    background-color: aqua;
+} */ 
+
+
+ /* text align last center means last line center m ho jagi
+    same for left and right */
+    /* 
+    direction:rtl means right s left read kroge
+    unicode-bidi:bidi-override isse s lang change right to left
+    vertical-align:super;  sub
+    text-decoration-line: overline;underline 
+                    color
+                    thickness
+    text-transform:lowecase
+    text-indent:10; means start space 
+    letter-spacing:  spacing between letter letter space 
+    line-height: 
+    word-spacing
+    
+    box-shadow: h-offset horizontal shadow +ve right -ve left
+                voffset vertical shadow
+                blur-radius
+                spread-radius
+                color
+                h,v,blur,spread radi,color,       inset 10px 20px 30px 40px red
+                inset means andeer aa jayegi
+    
+    transition-property:background color; all s sari hover ali property aa jagi
+    transition-duration:3s;
+    transitin-timing-function:linear; linear option  ease-in ease-out
+    transition-delay:1s; wait for 1s than start
+
+    box m y daal do aur .box:hover m background color
+
+
+                text-shadow:
+    */
+

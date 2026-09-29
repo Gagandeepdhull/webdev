@@ -1,0 +1,17 @@
+.first{display: inline;
+    background-color: aqua;
+}
+.second{
+    display: inline;
+    background-color: blue;
+}
+span{
+
+display:inline-block;
+    background-color: green;
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-left: 10%;
+}

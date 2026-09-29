@@ -1,0 +1,45 @@
+.container{
+    background-color: aquamarine;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    /* justify-content: center; */
+    /* align-items: end; */
+    /* align-items: baseline; */
+    /* flex-wrap: nowrap; */
+    align-content:center ;
+}
+/* flex direction will identify by  main axis 
+row: horizontal is main axis
+vertical: horizontal is main axis
+justify content it will around main axis
+space around: left right space
+space between: aa jata h
+space evenly: 
+align items  center s cross axis k around
+align strech strech kr dega height doge toh uske acc 
+align items baseline s base same 
+flexwrap s if size small then apne app niche aaj jat h
+align content center s box k niche box center m aajata h  aur is sath flexwrap use hoga
+*/
+.box{
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    margin: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: green;
+}
+.box4{
+    background-color:yellow;
+}

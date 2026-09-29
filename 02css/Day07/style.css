@@ -1,0 +1,27 @@
+.box{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+.container{
+    background-color: aqua;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: blue;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    z-index: 2;
+}
+.box3{
+    background-color: green;
+    position: relative;
+    z-index: 3;
+}
+.box4{
+    background-color: yellowgreen;
+}

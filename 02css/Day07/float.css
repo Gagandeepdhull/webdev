@@ -1,0 +1,17 @@
+.img1{
+    height: 200px;
+    width: auto;
+    float: right;
+    margin-right: 20px;
+}
+/* float left means img on left
+float right means img on right
+clear right meaans right m jagi if phle s h toh uske niche
+clear both means if kisi side ho toh muje niche */
+.img2{
+    float: right;
+    height: 200px;
+    width: auto;
+    margin-right: 10px;
+    clear: right;
+}

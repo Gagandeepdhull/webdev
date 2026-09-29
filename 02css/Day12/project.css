@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+}
+.logo{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(223, 26, 26);
+    padding: 1rem;
+}
+.right button{
+    margin-left: 0.8rem;
+    font-size: 1rem;
+    color: white;
+    background-color:rgb(223, 26, 26) ;
+    border: none;
+    padding: 0.3rem;
+    cursor: pointer;
+
+}
+h1{
+    color: white;
+}
+.search{
+    padding: 0.3rem;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+.searching{
+    width: 400px;
+    max-width: 60%;
+    /* jo iska conatiner uski 60 aa jaye */
+    padding: 0.2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.search > button{
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    background-color:rgb(223, 26, 26) ;
+    border-radius: 5px;
+    padding: 0.3rem;
+
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./hero.webp);
+    padding: 2rem;
+    
+
+}
+.hero > h2{
+    background-color: black;
+    color: white;
+}
+.hero > button{
+    background-color: rgb(223, 26, 26);
+    color: white;
+    margin-top: 2 rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.mover{
+    text-align: center;
+    padding: 1rem;
+}
+.mover > h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.card{
+     border: 0.5rem solid rgb(253, 243, 243);
+     background-color:rgb(253, 243, 243);
+     text-align: center;
+     border-radius: 10px;
+     margin-left: 1rem;
+}
+.card :hover{
+   
+     transform:scale(1.2);
+}
+
+
+.movie{
+    display: flex;
+    overflow-x: scroll;
+}
+.images{
+    height: 300px;
+
+}
+.bot{
+    margin-top: 2rem;
+    text-align: center;
+}
+.bot > img{
+    max-width: 80%;
+    border-radius: 10px;
+
+}
+@media(max-width:650px){
+    .logo{
+        flex-direction: column;
+        align-items: center;
+    }
+
+.right , .movie{
+    flex-direction: column;
+    display: flex;
+}
+
+}

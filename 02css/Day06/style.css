@@ -1,0 +1,31 @@
+.container{
+    margin-left: 20vw;
+    margin: 20vh;
+    background-color: bisque;
+    position: relative;
+}
+.box{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: blue;
+    position: absolute;
+    /* top: 30px; */
+    /* use top bottom right left */
+    /* position static m kuch bhi kaam nhi krega */
+    /* position absolute apni jagah khali krta h s box 2 3 k upar gya use top left bottom or right krege 
+    toh parent k acc jayega
+    fixed bhi apni position ko khali krta hai 
+    position sticky s bss usse parent k ander stick rhega*/
+}
+.box3{
+    background-color: green;
+}
+.box4{
+    background-color: yellow;
+}

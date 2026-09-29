@@ -1,0 +1,29 @@
+/*  10vw  10% of view port width 
+    10vh  10% of view port height
+    font- weight means motaiye 
+    font style means shape */
+
+    /* 
+    order < specificity < type < important
+    order means jo baad m ayega wo show hoga h1 baad phr h1 toh baad wala h1
+    specificity
+    class ho id ho attribute ho 
+    id>attribute>class>child and descendent> group
+    type  inline>
+    internal and external m jo last m ayega
+   syntax !important   likh d toh uski sbse jyada
+
+    */
+h1{
+    /* font-size: 10vw;
+    font-weight: 400; */
+    font-variant: small-caps;
+    font-family: "Playwrite CU Guides", cursive;
+}
+p{
+    line-height: 30px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-transform: lowercase;
+
+}
