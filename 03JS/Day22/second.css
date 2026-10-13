@@ -1,0 +1,43 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.circle {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    z-index: 9999;
+    animation: grow 5s forwards;
+}
+
+@keyframes grow {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+        font-size: 12px;
+    }
+
+    100% {
+        transform: scale(3);
+        opacity: 0;
+        font-size: 16px;
+    }
+}

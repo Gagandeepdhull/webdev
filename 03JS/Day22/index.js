@@ -1,3 +1,22 @@
+// <--- Event Listener--->
+
+// <---Mouse Event--->
+// 1:click
+// 2:dblclick
+// 3:mouseover
+// 4:mousemove
+
+// <----keyboard Event ---->
+// 1:keydown
+// 2:keyup
+
+// <---Event object ---->
+// 1:event
+// 2:event.target
+// 3:event.type
+// 4:event.key
+// 5:event.clientX
+
 const quotes = [
     "Dream big, work hard, stay humble.",
     "Your only limit is the one you set in your mind.",
@@ -35,8 +54,29 @@ function generatebodycolor() {
 }
 setInterval(generatebodycolor, 3000);
 
+// const button = document.querySelector('button');
+// button.addEventListener('click',()=>{                 // dblclick ,mousemove, mouseover, 
+//     const text = document.getElementById('quote');
+//     const Index = Math.floor(Math.random() * quotes.length);
+//     text.textContent = quotes[Index];
+// })
+
+// document.addEventListener('keydown',()=>{   // keyup means jabtk key release na kre
+//     const text = document.getElementById('quote');
+//     const Index = Math.floor(Math.random() * quotes.length);
+//     text.textContent = quotes[Index];
+// })
+
+// document.addEventListener('keydown',(event)=>{   // keyup means jabtk key release na kre
+//     if(event.key=="Enter"){
+//     const text = document.getElementById('quote');
+//     const Index = Math.floor(Math.random() * quotes.length);
+//     text.textContent = quotes[Index];
+// }})
+
 const button = document.querySelector('button');
-button.addEventListener('click',()=>{                 // dblclick ,mousemove, mouseover, 
+button.addEventListener('click',(event)=>{   
+    console.log(event.target);            //event.type means konsa event kiya, event.clientx means x ki position left s clienty upar s y
     const text = document.getElementById('quote');
     const Index = Math.floor(Math.random() * quotes.length);
     text.textContent = quotes[Index];
